@@ -97,7 +97,7 @@ mkdir -p ~/.ssh
 ssh-keygen -t rsa -C"你的Gubith注册邮箱"
 ```
 
-此处一直回车即可，然后在 ```C:\用户\用户名 ``` 的目录下，找到文件``` id_rsa.put ``` 并使用记事本打开，复制其中的所有字符
+此处一直回车即可，然后在 ```C:\用户\用户名\.ssh ``` 的目录下，找到文件``` id_rsa.pub ``` 并使用记事本打开，复制其中的所有字符
 
 ## key的配置
 
@@ -183,7 +183,7 @@ git clone -b master https://gitee.com/immyw/hexo-theme-butterfly.git themes/butt
 hexo n 新的文章的名称
 ```
 
-便会在```_post```中生成文件，可使用记事本或者编辑器打开（这里推荐***小书匠***）编辑文章，tags可使用一下方法添加
+便会在```_post```中生成文件，可使用记事本或者编辑器打开（这里推荐***Typora***）编辑文章，tags可使用一下方法添加
 
 ```
 tags: [示例标签1,示例标签2,示例标签3,示例标签4]

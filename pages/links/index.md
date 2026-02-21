@@ -75,10 +75,17 @@ links:
     color: "#00f9bb"
   - url: http://misakae.live/
     avatar: http://misakae.live/head.jpg
+    name: MisakaE
     blog: MisakaE
     desc: 天明明是这么的蓝 前途却是一片黑暗
     email: 
     color: "#ecb653"
+  - url: https://zer0ptr.icu/
+    avatar: https://zer0ptr.icu/img/avatar.jpg
+    name: zer0ptr
+    blog: zer0ptr's blog
+    desc: 君との時間が一秒でも長くなるなら,ずっとじゃなくていい
+    email: 
 random: true
 ---
 

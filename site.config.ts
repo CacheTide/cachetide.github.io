@@ -1,9 +1,10 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-url: 'https://yiurblog.top/',
+  url: 'https://yiurblog.top/',
   lang: 'zh-CN',
   title: '云边的小旅店',
+  favicon: '/favicon.jpg',
   author: {
     name: '洛忆雨Yiur',
 	avatar: 'https://www.yiurblog.top/head.jpg',

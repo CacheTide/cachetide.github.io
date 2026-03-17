@@ -53,23 +53,23 @@ export default defineSiteConfig({
 
   sponsor: {
     enable: true,
-    title: '我很可爱，请给我钱！',
+    title: '我很可爱，请给我葱！',
     methods: [
       {
         name: '支付宝',
-        url: 'https://yiurblog.top/Payment.png',
+        url: 'https://yiurblog.top/mikupayment2.png',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
         name: 'QQ 支付',
-        url: 'https://yiurblog.top/Payment.png',
+        url: 'https://yiurblog.top/mikupayment1.png',
         color: '#12B7F5',
         icon: 'i-ri-qq-line',
       },
       {
         name: '微信支付',
-        url: 'https://yiurblog.top/Payment.png',
+        url: 'https://yiurblog.top/mikupayment3.png',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },

@@ -24,13 +24,6 @@ links:
     desc: nya nya的可爱葱酱
     email: 
     color: "#39C5BB"
-  - url: https://n552aa.github.io/
-    avatar: https://n552aa.github.io/img/favicon.png
-    name: N552AA
-    blog: N552AAのwiki
-    desc: 
-    email: 
-    color: "#b854d4"
   - url: https://tenchsu.com/
     avatar: http://tenchsu.com/wp-content/uploads/2025/06/Image_1749552664954.jpg
     name: tenchsu

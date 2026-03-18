@@ -63,7 +63,7 @@ export default defineSiteConfig({
     methods: [
       {
         name: '支付宝',
-        url: 'https://cachetide/mikupayment2.png',
+        url: 'https://cachetide.top/mikupayment2.png',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },

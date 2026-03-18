@@ -674,3 +674,75 @@ main,
 
 
 
+
+/* --- 5. 目录(TOC)层级与样式优化 --- */
+.va-toc {
+  /* 去除默认列表样式 */
+  list-style: none !important;
+  padding-left: 0;
+  
+  .va-toc-item {
+    line-height: 1.8;
+    margin: 4px 0;
+    
+    .outline-link {
+      display: block;
+      color: var(--va-c-text-2) !important; /* 使用普通文字颜色 */
+      font-size: 0.95rem;
+      border-radius: 6px;
+      padding: 4px 10px;
+      transition: all 0.3s ease;
+      position: relative;
+      /* 若有多级标题则允许折行 */
+      white-space: normal !important;
+      word-break: break-word;
+      
+      &:hover {
+        background-color: var(--va-c-bg-soft);
+        color: var(--va-c-primary) !important;
+        transform: translateX(4px);
+      }
+      
+      &.active {
+        color: var(--va-c-primary) !important;
+        font-weight: 600;
+        background-color: color-mix(in oklab, var(--va-c-primary) 10%, transparent);
+        
+        &::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 20%;
+          height: 60%;
+          width: 3px;
+          background-color: var(--va-c-primary);
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+
+  /* 嵌套层级的缩进与连接线效果 */
+  ul.nested {
+    padding-left: 14px !important;
+    margin-left: 8px;
+    border-left: 1px dashed var(--va-c-divider); /* 添加虚线引导线 */
+  }
+}
+
+/* 保证大纲标题的好看程度 */
+.outline-title {
+  font-size: 1.1rem !important;
+  font-weight: bold;
+  border-bottom: 2px solid var(--va-c-primary);
+  display: inline-block;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+}
+
+
+/* 隐藏自带的随动指示器，因为它不支持多行标题计算导致偏移，使用上面 .active 的自身伪类代替 */
+.outline-marker {
+  display: none !important;
+}
+

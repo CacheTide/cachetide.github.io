@@ -13,8 +13,14 @@ export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
 
   theme: 'yun',
+  addons: [
+    'valaxy-addon-twikoo',
+    'valaxy-addon-waline',
+    'valaxy-addon-artalk'
+  ],
 
    themeConfig: {
+    outline: [1, 6],
     banner: {
       enable: true,
       title: '云边的小旅店',

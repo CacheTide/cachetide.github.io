@@ -16,12 +16,6 @@ export default defineSiteConfig({
   description: '无人相伴的路，惝恍迷离的舞',
   social: [
     {
-      name: 'QQ 群',
-      link: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Pi01N7gf8UGCeOauFHmQ0lmrO0NlDjKG&authKey=ReAj4s8B6PVemoefBRZSdHaQsw2mGO5tLwflyIvHKz3EXXaDCVJ6hURt7%2FEmBuOu&noverify=0&group_code=464982077',
-      icon: 'i-ri-qq-line',
-      color: '#12B7F5',
-    },
-    {
       name: 'GitHub',
       link: 'https://github.com/cachetide',
       icon: 'i-ri-github-line',
@@ -29,7 +23,7 @@ export default defineSiteConfig({
     },
     {
       name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/159435471',
+      link: 'https://space.bilibili.com/',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     },
@@ -47,7 +41,7 @@ export default defineSiteConfig({
     },
     {
       name: 'Telegram Channel',
-      link: 'https://t.me/',
+      link: 'https://t.me/CacheTide',
       icon: 'i-ri-telegram-line',
       color: '#0088CC',
     },

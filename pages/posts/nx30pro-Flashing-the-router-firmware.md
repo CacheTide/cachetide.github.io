@@ -4,7 +4,7 @@ title: H3C NX30pro 新版固件（V100R010、V100R009）免拆机刷机
 tags: [刷机,路由器,Linxu]
 categories: [技术]
 date: 2026-01-21 17:47:02
-cover: https://www.cachetide.top/cywl.jpg
+cover: https://www.cachetide.top/header2.jpg
 ---
 
 > 事情是这样的，有傻子想折腾nixos和pixel还有switch那一大堆，为了方便才这样子折腾刷路由器，但是回家那天看见路由器原厂固件可以更新就手贱了，导致折腾了巨大一圈，这里的特别感谢茶栗老师的 [教程](https://chariri.moe/archives/2383/h3c-nx30-pro-openwrt-new-stock-firmware-no-ttl/)

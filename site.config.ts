@@ -7,7 +7,7 @@ export default defineSiteConfig({
   favicon: '/favicon.jpg',
   author: {
     name: '编汐译梦CacheTide',
-	avatar: 'https://www.cachetide.top/favicon.jpg',
+	avatar: '/favicon.jpg',
 	status: {
       emoji: '😺'
     },
@@ -57,19 +57,19 @@ export default defineSiteConfig({
     methods: [
       {
         name: '支付宝',
-        url: 'https://cachetide.top/mikupayment2.png',
+        url: '/mikupayment2.png',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
         name: 'QQ 支付',
-        url: 'https://cachetide.top/mikupayment1.png',
+        url: '/mikupayment1.png',
         color: '#12B7F5',
         icon: 'i-ri-qq-line',
       },
       {
         name: '微信支付',
-        url: 'https://cachetide.top/mikupayment3.png',
+        url: '/mikupayment3.png',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },

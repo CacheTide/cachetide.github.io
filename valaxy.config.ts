@@ -28,8 +28,8 @@ export default defineValaxyConfig<UserThemeConfig>({
 	
     bg_image: {
       enable: true,
-      url: 'https://cachetide.top/background.jpg',
-      dark: 'https://cachetide.top/background.jpg',
+      url: '/background.jpg',
+      dark: '/background.jpg',
       opacity: 0.7
     },
 

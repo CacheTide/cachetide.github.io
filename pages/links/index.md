@@ -79,6 +79,12 @@ links:
     blog: zer0ptr's blog
     desc: 君との時間が一秒でも長くなるなら,ずっとじゃなくていい
     email: 
+  - url: https://qijieya.cn/
+    avatar: https://oss.qijieya.cn/1/hutao_hai.gif
+    name: 祈杰
+    blog: 祈杰のblog
+    desc: 敬不完美的...明天
+    email:
 random: true
 ---
 

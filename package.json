@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run build:ssg",
     "build:spa": "valaxy build",
-    "build:ssg": "valaxy build --ssg",
+    "build:ssg": "valaxy build --ssg && node scripts/fix-seo-sitemap.mjs",
     "dev": "valaxy",
     "rss": "valaxy rss",
     "serve": "vite preview"

@@ -4,6 +4,7 @@ noindex: true
 date: 2026-04-27
 tags:
   - 美食
+categories: [美食]
 
 hide: index
 

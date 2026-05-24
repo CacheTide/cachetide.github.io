@@ -27,7 +27,7 @@ links:
   - url: https://tenchsu.com/
     avatar: https://tenchsu.com/upload/G9fnXqEaMAA8Ind.jpg
     name: tenchsu
-    blog: tenchsuのblog
+    blog: tenchsu
     desc: 
     email: 
     color: "#808080" 
@@ -90,7 +90,7 @@ links:
   - url: https://0xsr.dev/
     avatar: https://0xsr.dev/avatar-fixed.jpeg
     name: SorrowRain
-    blog: SorrowRainのblog
+    blog: SorrowRain
     desc: 
     email:
     color: "#FFFACD"
@@ -101,6 +101,13 @@ links:
     desc: 
     email:
     color: "#8A2BE2"
+  - url: https://icarusfell.top
+    avatar: https://icarusfell.top/images/avatar.jpg
+    name: Spheniscidition
+    blog: Spheniscidition
+    desc: 庞大而臃肿，记录一场腐朽的梦
+    email:
+    color: "#2F4F2F"
 random: true
 ---
 

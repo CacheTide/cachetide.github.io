@@ -15,8 +15,8 @@ importers:
         specifier: ^2.1.3
         version: 2.1.3(vue@3.5.32(typescript@5.9.3))
       valaxy-addon-food-map:
-        specifier: 0.1.8
-        version: 0.1.8(valaxy@0.27.0(@babel/parser@7.29.2)(@nuxt/kit@3.21.2)(@types/markdown-it@14.1.2)(@types/node@25.6.0)(@vue/compiler-dom@3.5.32)(@vue/compiler-sfc@3.5.32)(axios@1.15.0)(change-case@5.4.4)(eslint@10.2.0(jiti@2.6.1))(postcss@8.5.9)(rollup@4.60.1)(terser@5.46.1)(typescript@5.9.3)(yaml@2.8.3))(vue@3.5.32(typescript@5.9.3))
+        specifier: github:CacheTide/valaxy-addon-food-map#v0.1.10
+        version: https://codeload.github.com/CacheTide/valaxy-addon-food-map/tar.gz/b7f6045296f8881cdab59f91e996c446824dde44(valaxy@0.27.0(@babel/parser@7.29.2)(@nuxt/kit@3.21.2)(@types/markdown-it@14.1.2)(@types/node@25.6.0)(@vue/compiler-dom@3.5.32)(@vue/compiler-sfc@3.5.32)(axios@1.15.0)(change-case@5.4.4)(eslint@10.2.0(jiti@2.6.1))(postcss@8.5.9)(rollup@4.60.1)(terser@5.46.1)(typescript@5.9.3)(yaml@2.8.3))(vue@3.5.32(typescript@5.9.3))
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^7.7.3
@@ -4446,8 +4446,9 @@ packages:
   valaxy-addon-components@0.1.0:
     resolution: {integrity: sha512-7uCJgUgc2JHISmz/UDQlhBqGSNW4QKmkiRlcwj5WhjhScC/KktK8JtADeKh6FCaAJHbjShovHB/9UPVtnTwORg==}
 
-  valaxy-addon-food-map@0.1.8:
-    resolution: {integrity: sha512-gALdf6tRnmcIN4vDbOPif9XpE/2jSlMVnIoROi/l9RewovF9+UGKU/M9f15cQ+R0gn+dbgRPbedp2c65VoVaUA==}
+  valaxy-addon-food-map@https://codeload.github.com/CacheTide/valaxy-addon-food-map/tar.gz/b7f6045296f8881cdab59f91e996c446824dde44:
+    resolution: {tarball: https://codeload.github.com/CacheTide/valaxy-addon-food-map/tar.gz/b7f6045296f8881cdab59f91e996c446824dde44}
+    version: 0.1.10
     peerDependencies:
       valaxy: '>=0.27.0 <0.29.0'
       vue: ^3.5.0
@@ -9658,7 +9659,7 @@ snapshots:
 
   valaxy-addon-components@0.1.0: {}
 
-  valaxy-addon-food-map@0.1.8(valaxy@0.27.0(@babel/parser@7.29.2)(@nuxt/kit@3.21.2)(@types/markdown-it@14.1.2)(@types/node@25.6.0)(@vue/compiler-dom@3.5.32)(@vue/compiler-sfc@3.5.32)(axios@1.15.0)(change-case@5.4.4)(eslint@10.2.0(jiti@2.6.1))(postcss@8.5.9)(rollup@4.60.1)(terser@5.46.1)(typescript@5.9.3)(yaml@2.8.3))(vue@3.5.32(typescript@5.9.3)):
+  valaxy-addon-food-map@https://codeload.github.com/CacheTide/valaxy-addon-food-map/tar.gz/b7f6045296f8881cdab59f91e996c446824dde44(valaxy@0.27.0(@babel/parser@7.29.2)(@nuxt/kit@3.21.2)(@types/markdown-it@14.1.2)(@types/node@25.6.0)(@vue/compiler-dom@3.5.32)(@vue/compiler-sfc@3.5.32)(axios@1.15.0)(change-case@5.4.4)(eslint@10.2.0(jiti@2.6.1))(postcss@8.5.9)(rollup@4.60.1)(terser@5.46.1)(typescript@5.9.3)(yaml@2.8.3))(vue@3.5.32(typescript@5.9.3)):
     dependencies:
       fast-glob: 3.3.3
       gray-matter: 4.0.3

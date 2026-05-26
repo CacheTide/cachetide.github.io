@@ -28,6 +28,14 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
     addonFoodMap({
       jsonPath: '/food-map/index.json',
+      sources: [
+        {
+          id: 'nocturne-archive',
+          name: 'Nocturne Archive',
+          url: 'https://icarusfell.top/food-map/index.json',
+          homepage: 'https://icarusfell.top',
+        },
+      ],
     }),
   ],
 

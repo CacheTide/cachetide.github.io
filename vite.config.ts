@@ -1,8 +1,6 @@
 import type { Plugin } from 'vite'
 import { defineConfig, loadEnv } from 'vite'
 
-// import RemoteAssets from 'vite-plugin-remote-assets'
-
 // 注入字体 <link> 标签，与主 CSS 并行加载（替代 CSS @import 的串行加载）
 const criticalResourceHints: Plugin = {
   name: 'critical-resource-hints',
@@ -29,18 +27,27 @@ export default defineConfig(({ mode }) => {
   const amapSecurityJsCode = viteEnv.VITE_AMAP_SECURITY_JS_CODE || process.env.VITE_AMAP_SECURITY_JS_CODE || ''
 
   return {
-    // todo wait upyun assets
-    // plugins: [RemoteAssets()],
-
     plugins: [criticalResourceHints],
+
+    build: {
+      rollupOptions: {
+        onwarn(warning, warn) {
+          if (
+            warning.code === 'UNUSED_EXTERNAL_IMPORT'
+            && warning.message.includes('external module "@valaxyjs/utils"')
+          ) {
+            return
+          }
+
+          warn(warning)
+        },
+      },
+    },
 
     define: {
       'import.meta.env.VITE_AMAP_KEY': JSON.stringify(amapKey),
       'import.meta.env.VITE_AMAP_SECURITY_JS_CODE': JSON.stringify(amapSecurityJsCode),
     },
 
-    optimizeDeps: {
-      include: ['vue-gtag-next'],
-    },
   }
 })

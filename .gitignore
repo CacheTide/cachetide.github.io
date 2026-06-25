@@ -45,3 +45,6 @@ Thumbs.db
 
 # IDE
 .idea/
+
+# local agent notes
+AGENTS.md

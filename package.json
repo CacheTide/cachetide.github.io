@@ -12,7 +12,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy-addon-food-map": "0.1.11"
+    "valaxy-addon-food-map": "0.1.12"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.7.3",

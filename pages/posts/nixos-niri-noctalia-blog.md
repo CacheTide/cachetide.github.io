@@ -1,6 +1,8 @@
 ---
 title: "从零配置 NixOS + niri + Noctalia Shell：我的 Wayland 桌面实践"
 date: 2026-05-14
+cover: https://www.cachetide.top/header4.jpg
+categories: [技术]
 tags:
   - NixOS
   - niri
@@ -13,7 +15,7 @@ tags:
 > 这篇文章记录配置 NixOS + niri + Noctalia Shell 的完整过程。
 >
 
-本文配置已经在我的机器上验证过：
+本文配置已经在自己机器上验证过：
 
 - NixOS unstable
 - niri Wayland compositor
@@ -1169,3 +1171,5 @@ docker version
 ```
 
 如果这些都正常，一个完整可用的 NixOS + niri + Noctalia Shell 桌面就完成了。
+
+*~~（在用了nixos一段时间后还是转fedora去了，主要是不习惯吧，随时build挺麻烦的，但是我确实很喜欢nixos的理念）~~*

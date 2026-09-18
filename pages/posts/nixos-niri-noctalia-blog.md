@@ -41,7 +41,7 @@ tags:
 | AMD Bus ID | `PCI:7:0:0` | `lspci` 查到的 AMD/Intel 核显 Bus ID |
 | Windows ESP PARTUUID | `52237cc3-791a-4589-b4c6-a806a91a1f93` | `lsblk` 查到的 Windows EFI 分区 PARTUUID |
 
-## 1. 基础假设
+## 1. 基础环境
 
 我的环境大致如下：
 
@@ -56,7 +56,7 @@ tags:
 
 如果你不是这个用户名，文中所有 `cachetide` 都要替换成你自己的用户名。
 
-## 2. 安装 NixOS 时的最低配置
+## 2. 安装 NixOS 时的配置
 
 先用官方 NixOS ISO 启动，分区、挂载、生成配置。建议先看清楚：
 
@@ -1171,5 +1171,7 @@ docker version
 ```
 
 如果这些都正常，一个完整可用的 NixOS + niri + Noctalia Shell 桌面就完成了。
+
+*本文是ai辅助安装后要求ai总结的成果*
 
 *~~（在用了nixos一段时间后还是转fedora去了，主要是不习惯吧，随时build挺麻烦的，但是我确实很喜欢nixos的理念）~~*

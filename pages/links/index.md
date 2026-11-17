@@ -108,6 +108,13 @@ links:
     desc: 庞大而臃肿，记录一场腐朽的梦
     email:
     color: "#2F4F2F"
+  - url: https://frostmoonrui.com/
+    avatar: https://frostmoonrui.com/assets/avatar-portrait.jpg
+    name: frostmoonrui
+    blog: frostmoon
+    desc: 安静一点，好奇多一点
+    email:
+    color: "#696969"
 random: true
 ---
 

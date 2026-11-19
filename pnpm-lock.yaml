@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       valaxy-addon-food-map:
-        specifier: 0.1.12
-        version: 0.1.12(valaxy@0.27.0(@babel/parser@7.29.2)(@nuxt/kit@3.21.2)(@types/markdown-it@14.1.2)(@types/node@25.6.0)(@vue/compiler-dom@3.5.32)(@vue/compiler-sfc@3.5.32)(axios@1.15.0)(change-case@5.4.4)(eslint@10.2.0(jiti@2.6.1))(postcss@8.5.9)(rollup@4.60.1)(terser@5.46.1)(typescript@5.9.3)(yaml@2.8.3))(vue@3.5.22(typescript@5.9.3))
+        specifier: 0.1.13
+        version: 0.1.13(valaxy@0.27.0(@babel/parser@7.29.2)(@nuxt/kit@3.21.2)(@types/markdown-it@14.1.2)(@types/node@25.6.0)(@vue/compiler-dom@3.5.32)(@vue/compiler-sfc@3.5.32)(axios@1.15.0)(change-case@5.4.4)(eslint@10.2.0(jiti@2.6.1))(postcss@8.5.9)(rollup@4.60.1)(terser@5.46.1)(typescript@5.9.3)(yaml@2.8.3))(vue@3.5.22(typescript@5.9.3))
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^7.7.3
@@ -4310,8 +4310,8 @@ packages:
     peerDependencies:
       valaxy: '>=0.22'
 
-  valaxy-addon-food-map@0.1.12:
-    resolution: {integrity: sha512-2Y2dIMvA4JnwVwbsau985QuNhLokZD399xUybWNKJ4TUTqMpBxCPuFXDQrDewdDdyIM9E2ZKHYIiwcvAUoX0Hw==}
+  valaxy-addon-food-map@0.1.13:
+    resolution: {integrity: sha512-qgNfoJBEdsF57/WqBfqn9OcwZ9AOqJK2L5KeqeCNDn+KobYcx8TIi06LBLxmk6ATeAhlfywktxJwaY5ojcwwnQ==}
     peerDependencies:
       valaxy: '>=0.27.0 <0.29.0'
       vue: ^3.5.0
@@ -9393,7 +9393,7 @@ snapshots:
       bilibili-bangumi-component: 0.4.0
       valaxy: 0.27.0(@babel/parser@7.29.2)(@nuxt/kit@3.21.2)(@types/markdown-it@14.1.2)(@types/node@25.6.0)(@vue/compiler-dom@3.5.32)(@vue/compiler-sfc@3.5.32)(axios@1.15.0)(change-case@5.4.4)(eslint@10.2.0(jiti@2.6.1))(postcss@8.5.9)(rollup@4.60.1)(terser@5.46.1)(typescript@5.9.3)(yaml@2.8.3)
 
-  valaxy-addon-food-map@0.1.12(valaxy@0.27.0(@babel/parser@7.29.2)(@nuxt/kit@3.21.2)(@types/markdown-it@14.1.2)(@types/node@25.6.0)(@vue/compiler-dom@3.5.32)(@vue/compiler-sfc@3.5.32)(axios@1.15.0)(change-case@5.4.4)(eslint@10.2.0(jiti@2.6.1))(postcss@8.5.9)(rollup@4.60.1)(terser@5.46.1)(typescript@5.9.3)(yaml@2.8.3))(vue@3.5.22(typescript@5.9.3)):
+  valaxy-addon-food-map@0.1.13(valaxy@0.27.0(@babel/parser@7.29.2)(@nuxt/kit@3.21.2)(@types/markdown-it@14.1.2)(@types/node@25.6.0)(@vue/compiler-dom@3.5.32)(@vue/compiler-sfc@3.5.32)(axios@1.15.0)(change-case@5.4.4)(eslint@10.2.0(jiti@2.6.1))(postcss@8.5.9)(rollup@4.60.1)(terser@5.46.1)(typescript@5.9.3)(yaml@2.8.3))(vue@3.5.22(typescript@5.9.3)):
     dependencies:
       fast-glob: 3.3.3
       gray-matter: 4.0.3
